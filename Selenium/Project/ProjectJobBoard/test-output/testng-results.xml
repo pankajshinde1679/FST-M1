@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ProjectJobBoard" duration-ms="233872" started-at="2021-05-19T04:28:59Z" finished-at="2021-05-19T04:32:53Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="233872" started-at="2021-05-19T04:28:59Z" finished-at="2021-05-19T04:32:53Z">
+      <class name="projects.VerifyTheWebsiteSecondHeading">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:projects.VerifyTheWebsiteSecondHeading@18be83e4]" name="beforeMethod" is-config="true" duration-ms="13682" started-at="2021-05-19T04:29:57Z" finished-at="2021-05-19T04:30:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifySecondHeading()[pri:0, instance:projects.VerifyTheWebsiteSecondHeading@18be83e4]" name="verifySecondHeading" duration-ms="100" started-at="2021-05-19T04:30:10Z" finished-at="2021-05-19T04:30:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySecondHeading -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:projects.VerifyTheWebsiteSecondHeading@18be83e4]" name="afterMethod" is-config="true" duration-ms="3461" started-at="2021-05-19T04:30:10Z" finished-at="2021-05-19T04:30:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- projects.VerifyTheWebsiteSecondHeading -->
+      <class name="projects.LoginIntoTheWebsiteBackend">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:projects.LoginIntoTheWebsiteBackend@475530b9]" name="beforeMethod" is-config="true" duration-ms="18356" started-at="2021-05-19T04:31:31Z" finished-at="2021-05-19T04:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="login()[pri:0, instance:projects.LoginIntoTheWebsiteBackend@475530b9]" name="login" duration-ms="4836" started-at="2021-05-19T04:31:50Z" finished-at="2021-05-19T04:31:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:projects.LoginIntoTheWebsiteBackend@475530b9]" name="afterMethod" is-config="true" duration-ms="5218" started-at="2021-05-19T04:31:55Z" finished-at="2021-05-19T04:32:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- projects.LoginIntoTheWebsiteBackend -->
+      <class name="projects.CreateJoblistingUsingBackend">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:projects.CreateJoblistingUsingBackend@1d057a39]" name="beforeMethod" is-config="true" duration-ms="19956" started-at="2021-05-19T04:32:00Z" finished-at="2021-05-19T04:32:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="createJobUsingBackend()[pri:0, instance:projects.CreateJoblistingUsingBackend@1d057a39]" name="createJobUsingBackend" duration-ms="28866" started-at="2021-05-19T04:32:20Z" finished-at="2021-05-19T04:32:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createJobUsingBackend -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:projects.CreateJoblistingUsingBackend@1d057a39]" name="afterMethod" is-config="true" duration-ms="4511" started-at="2021-05-19T04:32:49Z" finished-at="2021-05-19T04:32:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- projects.CreateJoblistingUsingBackend -->
+      <class name="projects.GetTheUrlOfTheHeaderImage">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:projects.GetTheUrlOfTheHeaderImage@8bd1b6a]" name="beforeMethod" is-config="true" duration-ms="14208" started-at="2021-05-19T04:29:39Z" finished-at="2021-05-19T04:29:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyUrl()[pri:0, instance:projects.GetTheUrlOfTheHeaderImage@8bd1b6a]" name="verifyUrl" duration-ms="106" started-at="2021-05-19T04:29:53Z" finished-at="2021-05-19T04:29:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUrl -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:projects.GetTheUrlOfTheHeaderImage@8bd1b6a]" name="afterMethod" is-config="true" duration-ms="3228" started-at="2021-05-19T04:29:53Z" finished-at="2021-05-19T04:29:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- projects.GetTheUrlOfTheHeaderImage -->
+      <class name="projects.ApplyToAJob">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:projects.ApplyToAJob@4b9e13df]" name="beforeMethod" is-config="true" duration-ms="15858" started-at="2021-05-19T04:30:36Z" finished-at="2021-05-19T04:30:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="applyForJob()[pri:0, instance:projects.ApplyToAJob@4b9e13df]" name="applyForJob" duration-ms="4179" started-at="2021-05-19T04:30:52Z" finished-at="2021-05-19T04:30:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applyForJob -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:projects.ApplyToAJob@4b9e13df]" name="afterMethod" is-config="true" duration-ms="3945" started-at="2021-05-19T04:30:57Z" finished-at="2021-05-19T04:31:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- projects.ApplyToAJob -->
+      <class name="projects.VerifyTheWebsiteTitle">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:projects.VerifyTheWebsiteTitle@cc285f4]" name="beforeMethod" is-config="true" duration-ms="18769" started-at="2021-05-19T04:28:59Z" finished-at="2021-05-19T04:29:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyWebSiteTitle()[pri:0, instance:projects.VerifyTheWebsiteTitle@cc285f4]" name="verifyWebSiteTitle" duration-ms="46" started-at="2021-05-19T04:29:18Z" finished-at="2021-05-19T04:29:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWebSiteTitle -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:projects.VerifyTheWebsiteTitle@cc285f4]" name="afterMethod" is-config="true" duration-ms="3447" started-at="2021-05-19T04:29:18Z" finished-at="2021-05-19T04:29:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- projects.VerifyTheWebsiteTitle -->
+      <class name="projects.NavigateToAnotherPage">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:projects.NavigateToAnotherPage@cb5822]" name="beforeMethod" is-config="true" duration-ms="14694" started-at="2021-05-19T04:30:14Z" finished-at="2021-05-19T04:30:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="navigateToPage()[pri:0, instance:projects.NavigateToAnotherPage@cb5822]" name="navigateToPage" duration-ms="4282" started-at="2021-05-19T04:30:29Z" finished-at="2021-05-19T04:30:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToPage -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:projects.NavigateToAnotherPage@cb5822]" name="afterMethod" is-config="true" duration-ms="3609" started-at="2021-05-19T04:30:33Z" finished-at="2021-05-19T04:30:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- projects.NavigateToAnotherPage -->
+      <class name="projects.VerifyTheWebsiteHeading">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:projects.VerifyTheWebsiteHeading@55f3ddb1]" name="beforeMethod" is-config="true" duration-ms="14267" started-at="2021-05-19T04:29:22Z" finished-at="2021-05-19T04:29:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyWebSiteHeading()[pri:0, instance:projects.VerifyTheWebsiteHeading@55f3ddb1]" name="verifyWebSiteHeading" duration-ms="115" started-at="2021-05-19T04:29:36Z" finished-at="2021-05-19T04:29:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWebSiteHeading -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:projects.VerifyTheWebsiteHeading@55f3ddb1]" name="afterMethod" is-config="true" duration-ms="3026" started-at="2021-05-19T04:29:36Z" finished-at="2021-05-19T04:29:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- projects.VerifyTheWebsiteHeading -->
+      <class name="projects.CreateANewJobListing">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:projects.CreateANewJobListing@2b98378d]" name="beforeMethod" is-config="true" duration-ms="14579" started-at="2021-05-19T04:31:00Z" finished-at="2021-05-19T04:31:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="createNewJob()[pri:0, instance:projects.CreateANewJobListing@2b98378d]" name="createNewJob" duration-ms="12660" started-at="2021-05-19T04:31:15Z" finished-at="2021-05-19T04:31:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewJob -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:projects.CreateANewJobListing@2b98378d]" name="afterMethod" is-config="true" duration-ms="3773" started-at="2021-05-19T04:31:28Z" finished-at="2021-05-19T04:31:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- projects.CreateANewJobListing -->
+    </test> <!-- Test -->
+  </suite> <!-- ProjectJobBoard -->
+</testng-results>

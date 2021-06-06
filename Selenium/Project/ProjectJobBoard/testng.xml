@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ProjectJobBoard">
+    <test thread-count="4" name="Test">
+        <classes>
+            <class name="projects.VerifyTheWebsiteTitle">                
+            </class>
+            <class name="projects.VerifyTheWebsiteHeading">                
+            </class>
+            <class name="projects.GetTheUrlOfTheHeaderImage">                
+            </class>
+            <class name="projects.VerifyTheWebsiteSecondHeading">                
+            </class>
+            <class name="projects.NavigateToAnotherPage">                
+            </class>
+            <class name="projects.ApplyToAJob">                
+            </class>
+            <class name="projects.CreateANewJobListing">                
+            </class>
+            <class name="projects.LoginIntoTheWebsiteBackend">                
+            </class>
+            <class name="projects.CreateJoblistingUsingBackend">                
+            </class>                     
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite --> 

@@ -57,7 +57,7 @@ public class GoogleChromeLogin {
 	
 
 		// Scroll down to Login Form.
-		MobileElement loginForm = driver.findElement(MobileBy.AndroidUIAutomator("UiScrollable(UiSelector()).getChildByText(UiSelector().className(\"android.view.View\"), \"Login Form\")"));
+		MobileElement loginForm = driver.findElement(MobileBy.AndroidUIAutomator("UiScrollable(UiSelector().scrollable(true)).getChildByText(UiSelector().className(\"android.view.View\"), \"Login Form\")"));
 
 		// Click on the Logon Form.
 		loginForm.click();

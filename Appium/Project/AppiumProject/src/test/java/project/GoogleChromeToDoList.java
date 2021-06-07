@@ -73,7 +73,7 @@ public class GoogleChromeToDoList {
 		//driver.findElement(MobileBy.AndroidUIAutomator("UiScrollable(UiSelector()).scrollIntoView(text(\"To-Do List\"))")).click();
 		
 		// Scroll down to To Do list.
-		MobileElement toList = driver.findElement(MobileBy.AndroidUIAutomator("UiScrollable(UiSelector()).getChildByText(UiSelector().className(\"android.view.View\"), \"To-Do List\")"));
+		MobileElement toList = driver.findElement(MobileBy.AndroidUIAutomator("UiScrollable(UiSelector().scrollable(true)).getChildByText(UiSelector().className(\"android.view.View\"), \"To-Do List\")"));
 
 		// Click on the To-Do List.
 		toList.click();

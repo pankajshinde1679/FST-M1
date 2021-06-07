@@ -53,7 +53,7 @@ public class GoogleChromePopUps {
 
 
 		// Scroll down to Login Form.
-		MobileElement loginPopupsForm = driver.findElement(MobileBy.AndroidUIAutomator("UiScrollable(UiSelector()).getChildByText(UiSelector().className(\"android.view.View\"), \"Popups\")"));
+		MobileElement loginPopupsForm = driver.findElement(MobileBy.AndroidUIAutomator("UiScrollable(UiSelector().scrollable(true)).getChildByText(UiSelector().className(\"android.view.View\"), \"Popups\")"));
 
 		// Click on the Popups.
 		loginPopupsForm.click();

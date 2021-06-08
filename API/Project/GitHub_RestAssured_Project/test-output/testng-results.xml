@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4724" started-at="2021-06-08T16:03:21Z" finished-at="2021-06-08T16:03:25Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4724" started-at="2021-06-08T16:03:21Z" finished-at="2021-06-08T16:03:25Z">
+      <class name="com.ibm.rest.RestAssuredGitTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ibm.rest.RestAssuredGitTest@1a968a59]" name="setUp" is-config="true" duration-ms="967" started-at="2021-06-08T16:03:21Z" finished-at="2021-06-08T16:03:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="postRequest()[pri:1, instance:com.ibm.rest.RestAssuredGitTest@1a968a59]" name="postRequest" duration-ms="2487" started-at="2021-06-08T16:03:22Z" finished-at="2021-06-08T16:03:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postRequest -->
+        <test-method status="PASS" signature="getRequest()[pri:2, instance:com.ibm.rest.RestAssuredGitTest@1a968a59]" name="getRequest" duration-ms="823" started-at="2021-06-08T16:03:24Z" finished-at="2021-06-08T16:03:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getRequest -->
+        <test-method status="PASS" signature="deleteRequest()[pri:3, instance:com.ibm.rest.RestAssuredGitTest@1a968a59]" name="deleteRequest" duration-ms="396" started-at="2021-06-08T16:03:25Z" finished-at="2021-06-08T16:03:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteRequest -->
+      </class> <!-- com.ibm.rest.RestAssuredGitTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
